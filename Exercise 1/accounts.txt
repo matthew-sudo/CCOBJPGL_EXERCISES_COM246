@@ -1,3 +1,0 @@
-matthew,password
-lebron,goat123
-kaisotto,mahaba123
