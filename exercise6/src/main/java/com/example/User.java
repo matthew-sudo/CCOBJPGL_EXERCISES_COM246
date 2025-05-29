@@ -8,9 +8,9 @@ public class User {
     private final SimpleStringProperty accountcreated;
     private final SimpleStringProperty accountstatus;
 
-    public User(String username, String password, String dcreated, String acstatus) {
-        this.username = new SimpleStringProperty(username);
-        this.password = new SimpleStringProperty(password);
+    public User(String uname, String pword, String dcreated, String acstatus) {
+        this.username = new SimpleStringProperty(uname);
+        this.password = new SimpleStringProperty(pword);
         this.accountcreated = new SimpleStringProperty(dcreated);
         this.accountstatus = new SimpleStringProperty(acstatus);
     }

@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import javafx.scene.Node;
@@ -23,6 +24,12 @@ public class LoginHandler {
 
     @FXML
     Button loginbutton;
+
+    @FXML
+    Label usernamelabel;
+
+    @FXML
+    Label passwordlabel;
     
     private Stage stage;
     private Scene scene;
